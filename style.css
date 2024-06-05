@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: o; padding: 0; box-sizing: border-box; font-family: "Archivo", sans-serif;
+}
+.navbar-t{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    color: #fff;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+.navbar-t .info ul li {
+display: inline;
+}
+.navbar-t .info ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    margin: 7px;
+
+}
+
+.navbar-t .social-icon i{
+    margin: 7px;
+    font-size: 15px;
+}
+/*------*/
+.navbar-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+    color: #fff;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    .navbar-2 h3{
+        font-size: 30px;
+        font-family: "Archivo", sans-serif;
+        font-style: italic;
+    }
+.navbar-2 .menu ul li {
+display: inline;
+}
+.navbar-2 .menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.navbar-2 .icons i{
+    margin: 10px;
+    font-size: 20px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+@media (max-width: 768px) {
+    .hero-section{
+        display: block;
+    }
+}
+.hero-section .hero-content h1{
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.hero-section img{
+    width: 600px;
+}
+@media (max-width:768px){
+    .hero-section img{
+        width: 100%;
+    }
+}
+
+.hero-section .hero-content p{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.hero-section .hero-content button{
+    background-color: red;
+    color:white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero-section .hero-content button:hover{
+    background-color: white;
+    color:red;
+    padding: 10px 50px;
+    border: 2px solid red;
+}
